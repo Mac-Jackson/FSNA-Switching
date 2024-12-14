@@ -3,15 +3,15 @@
 </p>
 
 <h1>Core Switch Basic Configuration</h1>
-LAB: Configure Core Switch, FSNA-SW1.<br />
+This Lab shows how to configure a switch new out of the box.<br />
 
 
 
 
 <h2>Networking Technologies Used</h2>
 
-- Inter-VLAN Routing
-- Subnetting
+- Cisco Networking
+  
 
 
 <h2>Environments Used </h2>
@@ -23,12 +23,21 @@ LAB: Configure Core Switch, FSNA-SW1.<br />
 
 - Cisco Packet Tracer
 
+
+<h2>Security Features </h2>
+
+- Global Password Encryption
+- VTY Access Control Lists
+
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1  Configure FSNA-RTR with Inter-VLAN routing, DHCP, & Internet Services
-- Step 2  Configure Interface G0/0 for Inter-VLAN routing for the Mgmt, Data, & Voice VLANs
-- Step 3  Configure DHCP Services for the Data VLAN
-- Step 4  Add a Default Route for Internet Access
+- Step 1  Configure Hostname
+- Step 2  Enable Secret
+- Step 3  Configure Clock
+- Step 4  Configure Management IP Address
+- Step 5  Configure Local Username & Password
+- Step 6  Configure Global Password Encryption Service
+- Step 7  Configure VTY line Access Control List
 
 <h2>Deployment and Configuration Steps</h2>
 
