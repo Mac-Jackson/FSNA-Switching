@@ -42,58 +42,54 @@ This Lab tutorial outlines how to configure a switch new out of the box.<br />
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/y91MAJk.png" height="80%" width="80%" alt="FSNA-RTR"/>
+<img src="https://i.imgur.com/1KNzrMo.png" height="80%" width="80%" alt="FSNA-SW1"/>
 </p>
 <p>
-Connectivity between Switch and Router is Off.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/jUiZnuy.png" height="80%" width="80%" alt="FSNA-RTR"/>
-</p>
-<p>
-Turn on RTR (config)#interface g0/0
- (config)#no shutdown
- (config)#description Trunk to FSNA-SW1
+Console into Switch from NOC-PC.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/XwEWFF4.png" height="80%" width="80%" alt="FSNA-RTR"/>
+<img src="https://i.imgur.com/UImkSMc.png" height="80%" width="80%" alt="FSNA-SW1"/>
 </p>
 <p>
-Configure G0/0Sub-interfaces for Inter-VLAN routing. (config-if)#interface g0/0.100
- (config-subif)#description MGMT
- (config-subif)#encapsulation dot1q 100
- (config-subif)#ip address 192.168.100.1 255.255.255.0
- (config-subif)#ip nat inside
- (config-if)#interface g0/0.200
- (config-subif)#description DATA
- (config-subif)#encapsulation dot1q 200
- (config-subif)#ip address 192.168.200.1 255.255.255.0
- (config-subif)#ip nat inside
- (config-if)#interface g0/0.150
- (config-subif)#description VOICE
- (config-subif)#encapsulation dot1q 150
- (config-subif)#ip address 192.168.150.1 255.255.255.0
- (config-subif)#ip nat inside
+Configure Hostname, Enable Secret, & Clock.  #clock set hh:mm:ss DD MONTH YYYY
+ (config)#hostname FSNA-SW1
+ (config)#enable secret fsnalab
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/vmGqwxo.png" height="80%" width="80%" alt="FSNA-RTR"/>
+<img src="https://i.imgur.com/Rjgb3j0.png" height="80%" width="80%" alt="FSNA-SW1"/>
 </p>
 <p>
-Verify the Trunk is active. FSNA-RTR#show running-config
+Configure Management IP Address & Local Username & Password. (config)#interface vlan 100
+ (config-if)#ip address 192.168.100.251 255.255.255.0
+ (config)#ip default-gateway 192.168.100.1
+ (config)#username fsna password zte
+ (config)#service password-encryption
+ (config)#line console 0
+ (config-line)#login local
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/91pR34D.png" height="80%" width="80%" alt="FSNA-RTR"/>
+<img src="https://i.imgur.com/II0mKB1.png" height="80%" width="80%" alt="FSNA-SW1"/>
 </p>
 <p>
-FSNA-RTR#show ip route
+Configur Global Password Encryption. (config)#service password-encryption
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/nI9RjJv.png" height="80%" width="80%" alt="FSNA-SW1"/>
+</p>
+<p>
+Configure VTY Access Control List. (config)#ip access-list standard VTY
+ (config-std-nacl)#permit 192.168.100.0 0.0.0.255
+ (config)#line vty 0 15
+ (config-line)#login local
+ (config-line)#access-class VTY in
 </p>
 <br />
 
