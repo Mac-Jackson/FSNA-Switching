@@ -93,39 +93,7 @@ Configure VTY Access Control List. (config)#ip access-list standard VTY
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/dxscWap.png" height="80%" width="80%" alt="FSNA-RTR"/>
-</p>
-<p>
-Save the configuration
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/ViVYP1x.png" height="80%" width="80%" alt="FSNA-SW1"/>
-</p>
-<p>
-Confirm Active Trunk on FSNA-SW1
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/twzgPHn.png" height="80%" width="80%" alt="FSNA-SW1"/>
-</p>
-<p>
-Add a default gateway to the switch and save configuration.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/8ZDLtQh.png" height="80%" width="80%" alt="FSNA-SW1"/>
-</p>
-<p>
-FSNA-SW1#ping 192.168.100.1
- FSNA-SW1#ping 192.168.200.1
- FSNA-SW1#ping 192.168.150.1
-</p>
-<br />
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
