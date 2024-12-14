@@ -2,8 +2,8 @@
 <img src="https://i.imgur.com/igOvrOm.png" alt="SWitch Logo"/>
 </p>
 
-<h1>Inter-VLAN Routing For 3 VLANs + Default Route To Internet</h1>
-LAB: ROUTER LAN CONFIGURATION. Configure, Test & Verify Inter-VLAN Routing<br />
+<h1>Core Switch Basic Configuration</h1>
+LAB: Configure Core Switch, FSNA-SW1.<br />
 
 
 
