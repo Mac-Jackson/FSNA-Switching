@@ -3,7 +3,7 @@
 </p>
 
 <h1>Core Switch Basic Configuration</h1>
-This Lab shows how to configure a switch new out of the box.<br />
+This Lab tutorial outlines how to configure a switch new out of the box.<br />
 
 
 
