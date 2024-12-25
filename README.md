@@ -62,8 +62,9 @@ Configure Hostname, Enable Secret, & Clock.  #clock set hh:mm:ss DD MONTH YYYY
 </p>
 <br />
 
+
 <p>
-<img src="https://i.imgur.com/Rjgb3j0.png" height="80%" width="80%" alt="FSNA-SW1"/>
+<img src="https://github.com/user-attachments/assets/49d034d2-c1a0-44e2-9023-f17a2e9ba71a" height="80%" width="80%" alt="FSNA-SW1"/>
 </p>
 <p>
 Configure Management IP Address & Local Username & Password. (config)#interface vlan 100
