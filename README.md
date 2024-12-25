@@ -1,9 +1,9 @@
 <p align="center">
-<img src="https://i.imgur.com/igOvrOm.png" alt="SWitch Logo"/>
+<img src="https://github.com/user-attachments/assets/53f9a48d-68ef-41b3-9119-e302dc2d49bc"/>
 </p>
 
 <h1>Core Switch Basic Configuration</h1>
-This Lab tutorial outlines how to configure a switch new out of the box.<br />
+This Lab tutorial outlines how to configure a new switch out of the box.<br />
 
 
 
