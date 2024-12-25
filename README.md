@@ -77,16 +77,18 @@ Configure Management IP Address & Local Username & Password. (config)#interface 
 </p>
 <br />
 
+
 <p>
-<img src="https://i.imgur.com/II0mKB1.png" height="80%" width="80%" alt="FSNA-SW1"/>
+<img src="https://github.com/user-attachments/assets/3d9b9c31-c257-4a92-a0c6-b470ecf0a199" height="80%" width="80%" alt="FSNA-SW1"/>
 </p>
 <p>
-Configur Global Password Encryption. (config)#service password-encryption
+Configure Global Password Encryption. (config)#service password-encryption
 </p>
 <br />
 
+
 <p>
-<img src="https://i.imgur.com/nI9RjJv.png" height="80%" width="80%" alt="FSNA-SW1"/>
+<img src="https://github.com/user-attachments/assets/aa5ff619-3032-47a3-853a-22cdce4a5bcc" height="80%" width="80%" alt="FSNA-SW1"/>
 </p>
 <p>
 Configure VTY Access Control List. (config)#ip access-list standard VTY
