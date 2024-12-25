@@ -43,6 +43,7 @@ This Lab tutorial outlines how to configure a new switch out of the box.<br />
 
 
 
+
 <p>
 <img src="https://github.com/user-attachments/assets/4b7a4aeb-50a7-4200-b3fe-8c2f56dc5964" height="80%" width="80%" alt="FSNA-SW1"/>
 </p>
@@ -52,7 +53,7 @@ Console into Switch from NOC-PC.
 <br />
 
 <p>
-<img src="https://i.imgur.com/UImkSMc.png" height="80%" width="80%" alt="FSNA-SW1"/>
+<img src="https://github.com/user-attachments/assets/20de0667-1803-4231-ae92-24ccafd7caea" height="80%" width="80%" alt="FSNA-SW1"/>
 </p>
 <p>
 Configure Hostname, Enable Secret, & Clock.  #clock set hh:mm:ss DD MONTH YYYY
