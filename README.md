@@ -42,8 +42,9 @@ This Lab tutorial outlines how to configure a new switch out of the box.<br />
 <h2>Deployment and Configuration Steps</h2>
 
 
+
 <p>
-<img src="https://github.com/user-attachments/assets/bf598049-bae3-48aa-bdc6-53a6fa016af1" height="80%" width="80%" alt="FSNA-SW1"/>
+<img src="https://github.com/user-attachments/assets/4b7a4aeb-50a7-4200-b3fe-8c2f56dc5964" height="80%" width="80%" alt="FSNA-SW1"/>
 </p>
 <p>
 Console into Switch from NOC-PC.
