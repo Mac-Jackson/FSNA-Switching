@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/user-attachments/assets/53f9a48d-68ef-41b3-9119-e302dc2d49bc"/>
+<img src="https://github.com/user-attachments/assets/53f9a48d-68ef-41b3-9119-e302dc2d49bc" height="80%" width="80%" />
 </p>
 
 <h1>Core Switch Basic Configuration</h1>
